@@ -1,0 +1,18 @@
+{
+  "source_file": "sample.csv",
+  "output_file": "cleaned.csv",
+  "headers": [
+    "customer_name",
+    "email",
+    "total",
+    "status"
+  ],
+  "rows_written": 3,
+  "duplicate_keys_removed": 1,
+  "malformed_rows_skipped": 0,
+  "formula_like_cells_escaped": 0,
+  "missing_required_by_column": {
+    "email": 1
+  },
+  "review_note": "Incomplete rows are preserved and flagged, not silently deleted."
+}

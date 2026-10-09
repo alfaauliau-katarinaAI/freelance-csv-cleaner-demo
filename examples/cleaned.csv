@@ -1,0 +1,4 @@
+﻿customer_name,email,total,status
+Ayu,ayu@example.com,150000,paid
+Budi,budi@example.com,275000,pending
+Sari,,33000,pending
