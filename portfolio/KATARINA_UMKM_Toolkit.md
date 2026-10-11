@@ -8,9 +8,9 @@ Materi ini bersifat **katalog informasi**. Belum ada checkout produk digital res
 
 | Produk | Harga uji | Cakupan |
 |---|---:|---|
-| **HPP Studio** | Rp49.000 | HPP per resep/porsi, konversi satuan bahan, waste, kemasan, overhead, simulasi margin & harga jual; ekspor CSV/JSON. |
-| **Nota & Order Studio** | Rp69.000 | Catatan order, pembayaran sebagian, sisa tagihan, nota cetak, estimasi laba kotor, ekspor CSV dan backup JSON. |
-| **UMKM Toolkit** | Rp99.000 | Dua aplikasi di atas dalam satu paket (hemat Rp19.000); keduanya **tidak tersinkronisasi**. |
+| **[HPP Studio](produk-hpp-studio.md)** | Rp49.000 | HPP per resep/porsi, konversi satuan bahan, waste, kemasan, overhead, simulasi margin & harga jual; ekspor CSV/JSON. |
+| **[Nota & Order Studio](produk-nota-order.md)** | Rp69.000 | Catatan order, pembayaran sebagian, sisa tagihan, nota cetak, estimasi laba kotor, ekspor CSV dan backup JSON. |
+| **[UMKM Toolkit](produk-paket-umkm.md)** | Rp99.000 | Dua aplikasi di atas dalam satu paket (hemat Rp19.000); keduanya **tidak tersinkronisasi**. |
 
 **Keterbatasan:** software berjalan offline di browser dari file `index.html` yang diekstrak dari ZIP. Data disimpan lokal dan **bisa hilang jika penyimpanan browser dihapus**; pengguna harus melakukan backup. Tidak ada POS, sinkronisasi akun bank/QRIS, laporan pajak resmi, pengelolaan stok otomatis, maupun verifikasi pembayaran. QRIS/transfer pada Nota & Order adalah catatan manual, bukan gateway.
 
