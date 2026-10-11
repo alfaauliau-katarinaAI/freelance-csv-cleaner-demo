@@ -51,3 +51,14 @@ The sample workbook used in sales demonstrations is built from fictional records
 ## KATARINA UMKM business tools
 
 [View the public product and customization portfolio](portfolio/KATARINA_UMKM_Toolkit.md). It documents independently developed, synthetic-data-tested offline HPP and order-management prototypes, price hypotheses and inquiry details. No complete buyer ZIP or checkout is hosted in this repository; the page does not imply paid customer work or real sales.
+
+## KATARINA HPP Studio Lite — live demo (11 October 2026)
+
+- **Public free demo:** https://katarina-hpp-studio-lite.vercel.app — deployment READY and HTTP 200 verified from the authorized VPS.
+- **Source & tests:** [products/hpp-studio-lite](products/hpp-studio-lite); five calculation scenarios passed locally on 11 October 2026. Browser hardware testing is still pending.
+- This is a free offline-style demo, **not paid checkout**. No sales or customer revenue claimed.
+
+## KATARINA Attendance — prototype, not production
+
+- [products/attendance-pilot](products/attendance-pilot) includes Python/FastAPI backend, PWA front end, GPS geofence, camera selfie, admin/employee logins, private photos, and CSV exports.
+- Nine API tests passed locally. **Android installation, public HTTPS backend hardening and privacy controls remain pending.** No employee data should be onboarded before those tasks are complete.
