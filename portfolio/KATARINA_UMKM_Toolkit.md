@@ -14,6 +14,11 @@ Materi ini bersifat **katalog informasi**. Belum ada checkout produk digital res
 
 **Keterbatasan:** software berjalan offline di browser dari file `index.html` yang diekstrak dari ZIP. Data disimpan lokal dan **bisa hilang jika penyimpanan browser dihapus**; pengguna harus melakukan backup. Tidak ada POS, sinkronisasi akun bank/QRIS, laporan pajak resmi, pengelolaan stok otomatis, maupun verifikasi pembayaran. QRIS/transfer pada Nota & Order adalah catatan manual, bukan gateway.
 
+## Layanan publik yang sudah disetujui marketplace
+
+**[10 Ide Konten dan Caption Instagram untuk UMKM — Rp150.000](https://projects.co.id/public/browse_services/view/90c513/10-ide-konten-dan-caption-instagram-untuk-umkm)**
+
+Layanan ini **benar-benar sudah terbit** pada akun Alfaaulia di Projects.co.id: 10 ide dan caption untuk satu merek, pengerjaan 2 hari setelah brief dan pesanan aktif, satu putaran revisi terhimpun, komunikasi/pembayaran melalui marketplace. Tidak termasuk desain akhir, video, posting, atau jaminan penjualan. Penjualan/payout belum terverifikasi; jangan menghubungi pembeli di luar transaksi resmi.
 ## Layanan kustomisasi
 
 - **Audit/perbaikan workbook Excel atau Google Sheets:** penawaran awal mulai Rp250.000 untuk pekerjaan kecil dengan lingkup terukur.
