@@ -1,6 +1,6 @@
 # KATARINA Attendance — Spesifikasi MVP Android (foto + titik kerja)
 
-**Status: perencanaan MVP; belum ada aplikasi Android atau server absensi produksi.** Pekerjaan dilakukan **setelah** peluncuran komersial HPP Studio berjalan.
+**Status terbaru 11 Oktober 2026: prototipe MVP single-company telah dibuat dan sembilan tes API lulus; source di [products/attendance-pilot](../products/attendance-pilot). Belum ada backend produksi, uji Android nyata, HTTPS publik, audit keamanan, atau checkout komersial.**
 
 ## Sasaran dan posisi produk
 
@@ -61,3 +61,10 @@ Progressive Web App (PWA) **HTTPS**: dapat dipasang dari Chrome Android ke layar
 ## Strategi komersial awal
 
 Harga **masih hipotesis**, diputuskan setelah biaya penyimpanan foto, hosting, support dan bukti kebutuhan pelanggan. Sasaran pilot 1–3 outlet sebelum paket bulanan diputuskan. Nilai jual harus melampaui fitur GPS/selfie standar yang sudah dimiliki beberapa pesaing. Potensi pembeda: satu aplikasi sederhana yang menyatukan jadwal shift lintas tengah malam, absensi foto-lokasi, ekspor gaji untuk UMKM dan dukungan lokal.
+
+## Dev progress 11 Oktober 2026
+
+- Backend FastAPI + SQLite (pilot satu perusahaan), login per pengguna, validasi GPS radius per titik kerja, validasi JPEG/PNG, foto privat, timestamp server, idempotency, kontrol urutan IN/OUT dan ekspor CSV telah diimplementasikan.
+- PWA manifest, ikon yang dihasilkan saat startup, offline cache asset dan pengambilan selfie dengan kamera telah ditambahkan.
+- Uji lokal API: **9 lulus**. Pengujian Chrome Android fisik **belum** dilakukan.
+- Belum ada shift lintas tengah malam, payroll, multi-tenant, retensi otomatis, rate limit login, atau deployment HTTPS; ini masih backlog sebelum digunakan karyawan asli.
