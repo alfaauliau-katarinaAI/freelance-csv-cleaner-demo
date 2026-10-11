@@ -1,20 +1,49 @@
-# Python CSV Cleaner — AI-Assisted Freelance Portfolio Sample
+# KATARINA Freelance — Data Cleaning & Contact QA Portfolio
 
-This is a self-contained, **synthetic code sample**, NOT a completed paid client project. It shows practical data cleaning for CSV/Excel-compatible data-entry jobs.
+**Public, synthetic, AI-assisted software demo.** This repository is **not** a completed paid-client project, an endorsement, or a guarantee of zero errors on external client files. No real customer information is stored here.
 
-Features:
-- Normalize headings and whitespace; handle comma, semicolon and tab-separated data.
-- Case-insensitive duplicate detection by a chosen key.
-- Preserve original input and incomplete rows; audit missing required values.
-- Escape spreadsheet formula-like content before writing Excel-compatible CSV.
-- Emit a clear JSON audit report, plus repeatable unit tests.
-- Standard-library Python only: no API accounts, paid services or external dependencies.
+## 1) CSV Cleaner
 
-Run using Python 3.9 or newer:
+`clean_csv.py` offers:
 
-    python clean_csv.py examples/sample.csv examples/cleaned.csv --key Email --required Email
-    python -m unittest discover -s tests -v
+- Normalized headings and whitespace; comma, semicolon, and tab CSV input.
+- Case-insensitive duplicate removal by a configurable key, recorded in the audit.
+- Missing required-value review and malformed-row counts.
+- Protection against spreadsheet formula injection in CSV outputs.
+- JSON audit record. Python standard library only.
 
-The output CSV can be opened with Excel. All names and email addresses are synthetic. Do not send customer data to an external AI service without client authorization.
+Example:
 
-**Disclosure:** The code was produced with AI assistance and locally tested. Please verify it on each client's files and requirements before delivery.
+```bash
+python clean_csv.py examples/sample.csv examples/cleaned.csv --key Email --required Email
+```
+
+## 2) Customer Contact Quality Audit
+
+`contact_quality.py` is designed for data-entry briefs that require careful review of names, emails and telephone numbers:
+
+- **Preserves every input contact** rather than silently removing suspected duplicates.
+- Flags case-insensitive duplicate emails, missing fields, invalid email formatting and unexpected columns.
+- Preserves phone number leading zeros and plus-prefixed country codes as Excel-safe CSV text.
+- Produces two deliverables: cleaned/reviewed CSV and separate exceptions CSV.
+- Does not transmit data to an AI API, web service, or any external endpoint.
+
+Try this fully fictional fixture:
+
+```bash
+python contact_quality.py examples/synthetic_contacts.csv examples/reviewed_contacts.csv examples/exceptions.csv
+python -m unittest discover -s tests -v
+```
+
+**Verification (11 October 2026):** 8 Python unit tests passed on the authorized KATARINA development VPS, including four tests covering contact QA. Re-run tests on the client-specific input sample and document all exceptions before delivery.
+
+## Client delivery approach
+
+1. Agree on source file format, record count, duplicate handling, deliverable format (CSV vs .xlsx), schedule, payment milestone, confidentiality, and authorized processing environment.
+2. Process data only under client instructions. Never upload personal contacts to public repositories or third-party AI services without specific authorization.
+3. Return the cleaned table plus a review/exceptions report and reconcile output records against source records.
+4. Flag ambiguity for client decisions instead of inventing missing values.
+
+The sample workbook used in sales demonstrations is built from fictional records; direct spreadsheet export is prepared per client requirements.
+
+**Disclosure:** Developed with AI assistance and locally tested. No client revenue, contracts or project outcomes are claimed here.
