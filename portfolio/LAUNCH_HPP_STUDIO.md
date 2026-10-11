@@ -1,6 +1,6 @@
 # KATARINA HPP Studio — Rencana Peluncuran Penjualan
 
-Status: **materi penawaran siap ditinjau; tautan checkout dan produk final belum diverifikasi**. Tidak boleh menyebut transaksi, pelanggan, atau penjualan yang belum terbukti.
+Status: **demo HPP Lite telah tayang di https://katarina-hpp-studio-lite.vercel.app dan kode tersedia di [GitHub](../products/hpp-studio-lite); checkout produk berbayar dan listing jasa HPP masih belum terverifikasi**. Tidak boleh menyebut transaksi, pelanggan, atau penjualan yang belum terbukti.
 
 ## Produk terpilih
 
@@ -47,3 +47,9 @@ Status: **materi penawaran siap ditinjau; tautan checkout dan produk final belum
 ## Ukuran keberhasilan pilot (bukan proyeksi pasti)
 
 Fokus awal: minimal satu listing aktif dengan demonstrasi dan checkout terverifikasi, satu inquiry potensial, lalu satu pesanan valid. Tidak ada klaim penjualan yang terjadi tanpa bukti.
+
+## Hasil implementasi 11 Oktober 2026
+
+- Gratis demo HPP Studio Lite sudah **READY** di Vercel; halaman utama dan kedua file JavaScript merespons HTTP 200 dari VPS berizin.
+- Source dan lima skenario uji kalkulasi ada di [products/hpp-studio-lite](../products/hpp-studio-lite).
+- Belum ada bukti pembayaran pertama, seller checkout, atau listing baru HPP yang telah disetujui. Jangan menganggap link demo sebagai pembelian produk.
