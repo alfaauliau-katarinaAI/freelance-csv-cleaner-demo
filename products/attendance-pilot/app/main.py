@@ -18,7 +18,7 @@ from fastapi import Depends, FastAPI, File, Form, HTTPException, Request, Respon
 from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
-from PIL import Image, UnidentifiedImageError
+from PIL import Image, ImageDraw, UnidentifiedImageError
 
 ROOT = Path(__file__).resolve().parent
 STATIC = ROOT / "static"
@@ -49,6 +49,17 @@ def db():
 
 def init_db():
     PHOTO_DIR.mkdir(parents=True, exist_ok=True)
+    # Icons are generated locally so a source checkout is installable without binary assets.
+    icon_dir = STATIC / "icons"
+    icon_dir.mkdir(parents=True, exist_ok=True)
+    for size in (192, 512):
+        output = icon_dir / f"icon-{size}.png"
+        if not output.exists():
+            img = Image.new("RGB", (size, size), "#123e34")
+            draw = ImageDraw.Draw(img)
+            edge = int(size * .18)
+            draw.rounded_rectangle((edge, edge, size - edge, size - edge), radius=int(size*.12), fill="#d3f5bc")
+            img.save(output)
     with db() as con:
         con.executescript("""
         CREATE TABLE IF NOT EXISTS sites (
