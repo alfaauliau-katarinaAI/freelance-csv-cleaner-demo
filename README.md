@@ -47,3 +47,7 @@ python -m unittest discover -s tests -v
 The sample workbook used in sales demonstrations is built from fictional records; direct spreadsheet export is prepared per client requirements.
 
 **Disclosure:** Developed with AI assistance and locally tested. No client revenue, contracts or project outcomes are claimed here.
+
+## KATARINA UMKM business tools
+
+[View the public product and customization portfolio](portfolio/KATARINA_UMKM_Toolkit.md). It documents independently developed, synthetic-data-tested offline HPP and order-management prototypes, price hypotheses and inquiry details. No complete buyer ZIP or checkout is hosted in this repository; the page does not imply paid customer work or real sales.
