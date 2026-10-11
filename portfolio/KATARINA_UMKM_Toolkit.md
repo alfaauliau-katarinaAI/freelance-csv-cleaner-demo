@@ -18,6 +18,8 @@ Materi ini bersifat **katalog informasi**. Belum ada checkout produk digital res
 
 **[10 Ide Konten dan Caption Instagram untuk UMKM — Rp150.000](https://projects.co.id/public/browse_services/view/90c513/10-ide-konten-dan-caption-instagram-untuk-umkm)**
 
+**[Lihat 3 contoh ide dan caption berbasis merek fiktif](CONTOH_3_IDE_KONTEN_UMKM.md)** — portofolio demo, bukan pekerjaan klien berbayar.
+
 Layanan ini **benar-benar sudah terbit** pada akun Alfaaulia di Projects.co.id: 10 ide dan caption untuk satu merek, pengerjaan 2 hari setelah brief dan pesanan aktif, satu putaran revisi terhimpun, komunikasi/pembayaran melalui marketplace. Tidak termasuk desain akhir, video, posting, atau jaminan penjualan. Penjualan/payout belum terverifikasi; jangan menghubungi pembeli di luar transaksi resmi.
 ## Layanan kustomisasi
 
