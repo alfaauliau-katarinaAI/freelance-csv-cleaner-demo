@@ -1,0 +1,9 @@
+name,phone,email
+Rani Putri,081234560001,rani@example.test
+Arif Santoso,+6281234560002,arif@example.test
+Maya Kirana,081234560003,maya@example.test
+Nina Wulandari,081234560004,nina@example.test
+Nina Duplicate,081234560004,NINA@example.test
+Fajar Wijaya,,fajar@example.test
+Laras Permata,081234560007,invalid-at-example.test
+Budi Hartono,081234560008,
